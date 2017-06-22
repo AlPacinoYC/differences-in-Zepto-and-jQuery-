@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="dom"></div>
+		<div class="dom"></div>
+		<div class="dom"></div>
+		
+	</body>
+	<script src="https://cdn.bootcss.com/jquery/2.2.2/jquery.js" type="text/javascript" charset="utf-8"></script>
+   <!-- <script src="https://cdn.bootcss.com/zepto/1.2.0/zepto.js" type="text/javascript" charset="utf-8"></script>-->
+    <script type="text/javascript">
+    	var Fragment = document.createDocumentFragment();
+    	var pDom=document.createElement("p");
+    	pDom.innerHTML="qwe";
+    	Fragment.appendChild(pDom);
+    	$(".dom").html(Fragment);
+    	
+    	
+    </script>
+</html>
